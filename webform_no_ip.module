@@ -1,0 +1,8 @@
+<?php
+
+//hook_webform_submission_presave
+function webform_no_ip_webform_submission_presave($node, &$submission) {
+	
+	//Removes the IP address from submissions before saving to the database
+	$submission->remote_addr = NULL;
+}

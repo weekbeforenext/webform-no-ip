@@ -1,0 +1,4 @@
+name = "Webform No IP"
+description = "Removes the user's IP address before saving a Webform submission."
+core = 7.x
+package = Webform
