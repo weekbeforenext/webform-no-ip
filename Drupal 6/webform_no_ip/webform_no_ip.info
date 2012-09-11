@@ -1,0 +1,6 @@
+; $Id$
+name = Webform No IP
+package = Webform
+description = "Removes the user's IP address before saving a Webform submission."
+core = 6.x
+dependencies[] = webform
